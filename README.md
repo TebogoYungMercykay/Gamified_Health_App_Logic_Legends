@@ -4,10 +4,10 @@
 
 | Picture | Name (Nickname)      | Role(s)      |
 |---------|----------------------|--------------|
-| <img src="./Images/RandomImg.png" width="100" height="100"> | Dan Phala (DanPhala)            | Designer & Designer |
-| <img src="./Images/RandomImg.png" width="100" height="100"> | Bandisa Masilela (Keyboard warrior) | Designer & Designer |
-| <img src="./Images/RandomImg.png" width="100" height="100"> | Selepe Sello (TebogoYungMercyKay) | Designer & Designer |
-| <img src="./Images/RandomImg.png" width="100" height="100"> | Tumelo Mosomane (Mozocs)         | Designer & Designer |
+| <img src="./Images/RandomImg.png" width="100" height="100"> | Dan Phala (DanPhala)            | Developer & Designer |
+| <img src="./Images/RandomImg.png" width="100" height="100"> | Bandisa Masilela (Keyboard warrior) | Developer & Designer |
+| <img src="./Images/RandomImg.png" width="100" height="100"> | Selepe Sello (TebogoYungMercyKay) | Developer & Designer |
+| <img src="./Images/RandomImg.png" width="100" height="100"> | Tumelo Mosomane (Mozocs)         | Developer & Designer |
 
 
 ---
