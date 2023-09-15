@@ -1,0 +1,10 @@
+[
+  {
+    "groupName": "healthAppAdminUserPoolGroup",
+    "precedence": 1
+  },
+  {
+    "groupName": "healthAppUserPoolGroup",
+    "precedence": 2
+  }
+]

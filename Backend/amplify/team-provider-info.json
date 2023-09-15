@@ -1,0 +1,36 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-healthapp-staging-224025-authRole",
+      "UnauthRoleArn": "arn:aws:iam::190037215676:role/amplify-healthapp-staging-224025-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::190037215676:role/amplify-healthapp-staging-224025-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-healthapp-staging-224025-deployment",
+      "UnauthRoleName": "amplify-healthapp-staging-224025-unauthRole",
+      "StackName": "amplify-healthapp-staging-224025",
+      "StackId": "arn:aws:cloudformation:us-east-1:190037215676:stack/amplify-healthapp-staging-224025/dca9fc20-5418-11ee-9bcf-1221b71566f5",
+      "AmplifyAppId": "d34d6bh6ni3t2d",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-healthapp-staging-224025-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "healthAppAuth": {},
+        "userPoolGroups": {}
+      },
+      "function": {
+        "healthAppAuthPostConfirmation": {
+          "GROUP": "healthAppUserPoolGroup",
+          "deploymentBucketName": "amplify-healthapp-staging-224025-deployment",
+          "s3Key": "amplify-builds/healthAppAuthPostConfirmation-7a596c316c2f71465046-build.zip"
+        },
+        "AdminQueries2891cc7b": {
+          "deploymentBucketName": "amplify-healthapp-staging-224025-deployment",
+          "s3Key": "amplify-builds/AdminQueries2891cc7b-6e4441594f4533556e6c-build.zip"
+        }
+      },
+      "api": {
+        "AdminQueries": {}
+      }
+    }
+  }
+}
