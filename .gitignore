@@ -1,2 +1,9 @@
 # Environment Variable
 *.env
+
+# Vs Code
+
+*.vscode
+
+# Node Modules
+node_modules
