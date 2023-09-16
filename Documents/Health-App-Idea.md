@@ -46,6 +46,16 @@ Our Gamified Health App aims to revolutionize the fitness landscape by offering 
     $$
 
      
+   The formulas for the hands (curls detection) are:
+
+   $$
+   \theta_{\text{hand}} = \arctan2(y_{\text{wrist}} - y_{\text{elbow}}, x_{\text{wrist}} - x_{\text{elbow}}) - \arctan2(y_{\text{shoulder}} - y_{\text{elbow}}, x_{\text{shoulder}} - x_{\text{elbow}})
+   $$
+
+   $$
+   \text{hand\_angle} = |\theta_{\text{hand}}| \times \frac{180}{\pi}
+   $$
+
    Real-time feedback ensures exercises are performed correctly and safely.
 
 4. **Rewards and Incentives:**
