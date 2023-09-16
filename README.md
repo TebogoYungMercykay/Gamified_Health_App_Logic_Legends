@@ -1,9 +1,19 @@
 # 2023 Hackathon: Gamified Health App - Logic Legends
 
-## Project Team
+## Project team members
 ---
 
-[Dan Phala](https://www.linkedin.com/in/dan-phala-7b91451b4?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Br4TxPQ2ZTg2ahxz%2BT6%2BSFg%3D%3D)
+[Dan Phala](https://www.linkedin.com/in/dan-phala-7b91451b4?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Br4TxPQ2ZTg2ahxz%2BT6%2BSFg%3D%3D) 
+
+
+[Tumelo Mosomane](https://www.linkedin.com/in/tumelo4?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BVyd3ktLVTUuOPSRQ1HqXig%3D%3D)
+
+
+[Sello (Tebogo) Selepe](https://www.linkedin.com/in/sello-selepe-tebogoyungmercykay?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bqrmd3uAVRXmfxLDp3m%2Fvxg%3D%3D)
+
+
+[Bandisa Masilela](https://www.linkedin.com/in/bandisa?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BYBrdD2AqQ8mfMgRuo%2FO6qg%3D%3D)
+
 
 ---
 # Gamified Health App: Transforming Fitness with Fun and Rewards
@@ -43,7 +53,54 @@ Our Gamified Health App aims to revolutionize the fitness landscape by offering 
 
 3. **Camera Monitoring:**
    - The app utilizes the device's camera to monitor users as they perform exercises.
-   - Real-time feedback ensures exercises are performed correctly and safely.
+
+
+   - The following mathematical formula is used to calculate and determine the accuracy and correctness of the exercise:
+   
+   The formulas for the left and right legs (squarts detection) are:
+
+    $$
+    \text{leftRadians} = \arctan2(\text{leftHip}_y - \text{leftKnee}_y, \text{leftHip}_x - \text{leftKnee}_x) - \arctan2(\text{leftAnkle}_y - \text{leftKnee}_y, \text{leftAnkle}_x - \text{leftKnee}_x)
+    $$
+
+
+
+    $$
+    \text{leftAngle} = |\text{leftRadians}| \times \frac{180}{\pi}
+    $$
+
+
+
+   $$
+    \text{rightRadians} = \arctan2(\text{rightHip}_y - \text{rightKnee}_y, \text{rightHip}_x - \text{rightKnee}_x) - \arctan2(\text{rightAnkle}_y - \text{rightKnee}_y, \text{rightAnkle}_x - \text{rightKnee}_x)
+    $$
+
+
+
+    $$
+    \text{rightAngle} = |\text{rightRadians}| \times \frac{180}{\pi}
+    $$
+
+     
+
+   The formulas for the hands (curls detection) are:
+
+   $$
+   \theta_{\text{hand}} = \arctan2(y_{\text{wrist}} - y_{\text{elbow}}, x_{\text{wrist}} - x_{\text{elbow}}) - \arctan2(y_{\text{shoulder}} - y_{\text{elbow}}, x_{\text{shoulder}} - x_{\text{elbow}})
+   $$
+
+
+
+   $$
+   \text{handAngle} = |\theta_{\text{hand}}| \times \frac{180}{\pi}
+   $$
+
+    - Users get to enjoy real-time feedback , with the help of media pipe that ensures that exercises are performed correctly and detection speed is also optimized for faster recognition and feedback. This also safeguard us against user cheating some of the exercises.
+
+   <img src="./Images/pose_landmarks_index.png" width="750" height="600">
+
+
+
 
 
 <img src="./Images/Exercise(1).png" width="750" height="600"> 

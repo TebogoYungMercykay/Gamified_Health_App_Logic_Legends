@@ -1,0 +1,63 @@
+{
+  "version": "1",
+  "cognitoConfig": {
+    "identityPoolName": "healthAppIdentityPool",
+    "allowUnauthenticatedIdentities": false,
+    "resourceNameTruncated": "health91c087ff",
+    "userPoolName": "healthAppUserPool",
+    "autoVerifiedAttributes": [
+      "email"
+    ],
+    "mfaConfiguration": "OFF",
+    "mfaTypes": [
+      "SMS Text Message"
+    ],
+    "smsAuthenticationMessage": "Your authentication code is {####}",
+    "smsVerificationMessage": "Your verification code is {####}",
+    "emailVerificationSubject": "HEALTH APP VERIFICATION CODE",
+    "emailVerificationMessage": "Your health app verification code is {####}\\n If you did not request to sign up, ignore this message.",
+    "defaultPasswordPolicy": true,
+    "passwordPolicyMinLength": 8,
+    "passwordPolicyCharacters": [],
+    "requiredAttributes": [
+      "email",
+      "family_name",
+      "name"
+    ],
+    "aliasAttributes": [],
+    "userpoolClientGenerateSecret": false,
+    "userpoolClientRefreshTokenValidity": 30,
+    "userpoolClientWriteAttributes": [
+      "email"
+    ],
+    "userpoolClientReadAttributes": [
+      "email"
+    ],
+    "userpoolClientLambdaRole": "health91c087ff_userpoolclient_lambda_role",
+    "userpoolClientSetAttributes": false,
+    "sharedId": "91c087ff",
+    "resourceName": "healthAppAuth",
+    "authSelections": "identityPoolAndUserPool",
+    "useDefault": "manual",
+    "thirdPartyAuth": false,
+    "usernameAttributes": [
+      "email"
+    ],
+    "userPoolGroups": true,
+    "adminQueries": true,
+    "triggers": {
+      "PostConfirmation": [
+        "add-to-group"
+      ]
+    },
+    "hostedUI": false,
+    "userPoolGroupList": [
+      "healthAppAdminUserPoolGroup",
+      "healthAppUserPoolGroup"
+    ],
+    "adminQueryGroup": "healthAppAdminUserPoolGroup",
+    "serviceName": "Cognito",
+    "usernameCaseSensitive": false,
+    "useEnabledMfas": true
+  }
+}
