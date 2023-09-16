@@ -3,13 +3,7 @@
 ## Project Team
 ---
 
-| Picture | Name (Nickname)      | Role(s)      |
-|---------|----------------------|--------------|
-| <img src="./Images/RandomImg.png" width="100" height="100"> | Dan Phala (DanPhala)            | Developer & Designer |
-| <img src="./Images/RandomImg.png" width="100" height="100"> | Bandisa Masilela (Keyboard warrior) | Developer & Designer |
-| <img src="./Images/RandomImg.png" width="100" height="100"> | Selepe Sello (TebogoYungMercyKay) | Developer & Designer |
-| <img src="./Images/RandomImg.png" width="100" height="100"> | Tumelo Mosomane (Mozocs)         | Developer & Designer |
-
+[Dan Phala](https://www.linkedin.com/in/dan-phala-7b91451b4?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Br4TxPQ2ZTg2ahxz%2BT6%2BSFg%3D%3D)
 
 ---
 # Gamified Health App: Transforming Fitness with Fun and Rewards
