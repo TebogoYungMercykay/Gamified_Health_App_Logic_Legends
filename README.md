@@ -15,8 +15,11 @@
 # Gamified Health App: Transforming Fitness with Fun and Rewards
 
 ## Snipets
- <img src="./Images/Exercise(1).png" width="500" height="500"> 
-<img src="./Images/Exercise(2).png" width="500" height="500"> 
+
+**Exercise tracking**
+<img src="./Images/Exercise(1).png" width="2000" height="2000"> 
+<img src="./Images/Exercise(2).png" width="2000" height="2000"> 
+
 
 ## Introduction
 
