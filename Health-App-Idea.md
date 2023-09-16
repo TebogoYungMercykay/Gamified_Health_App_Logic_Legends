@@ -56,7 +56,7 @@ Our Gamified Health App aims to revolutionize the fitness landscape by offering 
    \text{handAngle} = |\theta_{\text{hand}}| \times \frac{180}{\pi}
    $$
 
-   Real-time feedback , with the help of media pipe ensures exercises are performed correctly safely, and detection speed is also optimized for faster recognition and feedback.
+   Real-time feedback , with the help of media pipe ensures exercises are performed correctly safely, and detection speed is also optimized for faster recognition and feedback. This also safeguard us against user cheating some of the exercises because it ensure that they are done correctly with correct pose as well.
 
 
    <img src="./Images/pose_landmarks_index.png" width="750" height="600">
