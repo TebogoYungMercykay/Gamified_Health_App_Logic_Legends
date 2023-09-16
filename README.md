@@ -16,6 +16,10 @@
 
 ## Snipets
 
+**User Interface**+
+<img src="./Images/UI(1).jpeg" width="700" height="700">
+<img src="./Images/UI(2).jpeg" width="700" height="700"> 
+
 **Exercise tracking**
 <img src="./Images/Exercise(1).png" width="700" height="700"> 
 <img src="./Images/Exercise(2).png" width="700" height="700"> 
