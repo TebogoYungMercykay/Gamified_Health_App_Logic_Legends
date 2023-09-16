@@ -1,10 +1,18 @@
 # 2023 Hackathon: Gamified Health App - Logic Legends
 
-## Project Team
+## Project team members
 ---
 
-[Dan Phala](https://www.linkedin.com/in/dan-phala-7b91451b4?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Br4TxPQ2ZTg2ahxz%2BT6%2BSFg%3D%3D)
+[Dan Phala](https://www.linkedin.com/in/dan-phala-7b91451b4?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Br4TxPQ2ZTg2ahxz%2BT6%2BSFg%3D%3D) 
 
+
+[Tumelo Mosomane](https://www.linkedin.com/in/tumelo4?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BVyd3ktLVTUuOPSRQ1HqXig%3D%3D)
+
+
+[Sello (Tebogo) Selepe](https://www.linkedin.com/in/sello-selepe-tebogoyungmercykay?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bqrmd3uAVRXmfxLDp3m%2Fvxg%3D%3D)
+
+
+[Bandisa Masilela](https://www.linkedin.com/in/bandisa?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BYBrdD2AqQ8mfMgRuo%2FO6qg%3D%3D)
 ---
 # Gamified Health App: Transforming Fitness with Fun and Rewards
 
