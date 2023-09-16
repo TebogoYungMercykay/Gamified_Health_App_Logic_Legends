@@ -80,5 +80,9 @@ Join us on this exciting adventure towards better health and fitness, one gamifi
 
 ## Documentation
 [Project Idea](Documents/Health-App-Idea.pdf)
+
+
 [Project Requirements](Documents/Monkey_and_River_Hackathon_2023_Phase_1_Specs)
+
+
 [Project Stages](Documents/MnR_Hackathon_2023_P1_Itinerary.pdf)
