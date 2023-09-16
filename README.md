@@ -45,15 +45,15 @@ Our Gamified Health App aims to revolutionize the fitness landscape by offering 
    - Competition within groups adds an element of fun and motivation.
 
 
-<img src="./Images/UI(2).jpeg" width="600" height="750"> 
+<img src="./Images/UI(2).jpeg" width="750" height="600"> 
 
 3. **Camera Monitoring:**
    - The app utilizes the device's camera to monitor users as they perform exercises.
    - Real-time feedback ensures exercises are performed correctly and safely.
 
 
-<img src="./Images/Exercise(1).png" width="600" height="750"> 
-<img src="./Images/Exercise(2).png" width="600" height="750"> 
+<img src="./Images/Exercise(1).png" width="750" height="600"> 
+<img src="./Images/Exercise(2).png" width="750" height="600"> 
 
 4. **Rewards and Incentives:**
    - A portion of the ad revenue generated within the app is allocated as monthly rewards for top-performing group members.
