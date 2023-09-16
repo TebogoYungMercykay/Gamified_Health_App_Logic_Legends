@@ -1,231 +1,154 @@
 # 2023 Hackathon: Gamified Health App - Logic Legends
 
+## Project team members
 ---
 
-| Picture | Name (Nickname)      | Role(s)      |
-|---------|----------------------|--------------|
-| <img src="./Images/RandomImg.png" width="100" height="100"> | Dan Phala (DanPhala)            | Developer & Designer |
-| <img src="./Images/RandomImg.png" width="100" height="100"> | Bandisa Masilela (Keyboard warrior) | Developer & Designer |
-| <img src="./Images/RandomImg.png" width="100" height="100"> | Selepe Sello (TebogoYungMercyKay) | Developer & Designer |
-| <img src="./Images/RandomImg.png" width="100" height="100"> | Tumelo Mosomane (Mozocs)         | Developer & Designer |
+[Dan Phala](https://www.linkedin.com/in/dan-phala-7b91451b4?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Br4TxPQ2ZTg2ahxz%2BT6%2BSFg%3D%3D) 
+
+
+[Tumelo Mosomane](https://www.linkedin.com/in/tumelo4?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BVyd3ktLVTUuOPSRQ1HqXig%3D%3D)
+
+
+[Sello (Tebogo) Selepe](https://www.linkedin.com/in/sello-selepe-tebogoyungmercykay?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bqrmd3uAVRXmfxLDp3m%2Fvxg%3D%3D)
+
+
+[Bandisa Masilela](https://www.linkedin.com/in/bandisa?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BYBrdD2AqQ8mfMgRuo%2FO6qg%3D%3D)
 
 
 ---
+# Gamified Health App: Transforming Fitness with Fun and Rewards
 
-- ## `Introduction:`
+## Snipets
 
-    - In the modern digital landscape, health apps have the potential to transform the way individuals manage and maintain their well-being.
-    - However, many existing health apps lack the engagement factor necessary to encourage consistent usage.
-    - This README outlines the vision, challenges, and objectives of our upcoming health app project, with a strong emphasis on integrating gamification principles to enhance user engagement and enjoyment.
+## User Interface
 
-    ---
 
-    - #### `Hackathon Objective:`
+<img src="./Images/UI(1).jpeg" width="600" height="500">
 
-        - Our primary objective is to develop a health app that seamlessly integrates gamification principles, making it easy for users to incorporate it into their daily routines for health monitoring, education, and support.
-        - Gamification has proven to be a vital tool for boosting user engag
 
-        - ###### `Key Gamification Principles:`
+## Introduction
 
-            - Clear Goals and Challenges: Users should have well-defined objectives and challenges to strive for within the app.
-            - Personalization: Tailoring the user experience to individual preferences and needs.
-            - Immediate Feedback: Providing instant and visible feedback on user actions and progress.
-            - Choice and Failure: Offering users choices and the possibility of setbacks or failures in their health journey.
-            - Social Interaction: Encouraging social engagement and interaction among users
+In today's fast-paced world, staying motivated and committed to a healthy lifestyle can be challenging. To address this, we are excited to introduce our innovative **Gamified Health App**, a unique fitness platform that combines gamification, social interaction, and rewards to make exercise enjoyable and engaging for everyone.
 
-    - #### `Project Vision and Goals:`
+## Problem Statement
 
-        - Enhancing User Engagement: Traditional health apps often lack engaging elements, leading to inconsistent use.
-        - Comparative Health Tracking: Users struggle to compare their progress with others, which can be motivating.
-        - Motivation Reinforcement: Users who achieve personal goals should receive recognition and encouragement.
-        - Health Improvement Push: Existing apps often focus on monitoring, rather than actively prompting users to make improvements.
-        - User-Friendly Interface: Ensuring that the app is accessible and user-friendly for individuals of all tech-skill levels.
+Many individuals struggle to maintain a regular exercise routine due to a lack of motivation, social support, and personalized feedback on their workouts. Traditional fitness apps often fall short in these areas, leaving users uninspired and demotivated.
 
-    - #### `Objectives:`
+## Solution
 
-        - Health Data Input: Allow users to input various health data, such as weight, water intake, steps taken, etc.
-        - Comparative Health Tracking: Enable users to compare their health status and progress with peers.
-        - -Friendly Tutorial: Provide a user-friendly tutorial to ensure easy onboarding for all users.
-        - Personalized Health Challenges: Implement a system that issues personalized health challenges based on user profiles and goals.
-        - Reward System: Create a reward system to recognize and incentivize users for achieving their health goals.
-        - Communication with Medical Professionals: Establish a communication channel for users to connect with healthcare professionals for guidance and support.
+Our Gamified Health App aims to revolutionize the fitness landscape by offering a comprehensive solution to these challenges. Here's how it works:
 
----
----
+### Key Features
 
-- ## `Implementation Proposal:`
+1. **Exercise Groups:**
+   - Users can easily create or join exercise groups with friends, family, neighbors, or colleagues.
+   - These groups act as virtual workout communities, fostering motivation and accountability.
 
-    ---
+2. **Leaderboards:**
+   - Each exercise group has its own leaderboard that tracks members' progress and achievements.
+   - Competition within groups adds an element of fun and motivation.
 
-    - ### `Technologies Used:`
-        - Frontend: React, `(Add More)`.
-        - Backend: Node, `(Add More)`.
 
-    ---
+<img src="./Images/UI(2).jpeg" width="750" height="600"> 
 
-    - ### `OVERVIEW:`
+3. **Camera Monitoring:**
+   - The app utilizes the device's camera to monitor users as they perform exercises.
 
-        - ### `Diagram:`
 
-            - <img src="./Images/Proposal_Digramn.png" height="500" width="auto">
+   - The following mathematical formula is used to calculate and determine the accuracy and correctness of the exercise:
+   
+   The formulas for the left and right legs (squarts detection) are:
 
-        - ### `Database Design:`
+    $$
+    \text{leftRadians} = \arctan2(\text{leftHip}_y - \text{leftKnee}_y, \text{leftHip}_x - \text{leftKnee}_x) - \arctan2(\text{leftAnkle}_y - \text{leftKnee}_y, \text{leftAnkle}_x - \text{leftKnee}_x)
+    $$
 
-            - `Loading...`
 
-    ---
 
-    - ### `Pages and Their Functionality:`
+    $$
+    \text{leftAngle} = |\text{leftRadians}| \times \frac{180}{\pi}
+    $$
 
-        ---
 
-        - #### `Landing page/ Splash Page:`
 
-            - ###### `Description:`
+   $$
+    \text{rightRadians} = \arctan2(\text{rightHip}_y - \text{rightKnee}_y, \text{rightHip}_x - \text{rightKnee}_x) - \arctan2(\text{rightAnkle}_y - \text{rightKnee}_y, \text{rightAnkle}_x - \text{rightKnee}_x)
+    $$
 
-                - This is a splash page or landing page serves as the initial screen or web page that users encounter when they first open the app or visit your website.
-                - This plays a crucial role in making a first impression, conveying important information, and encouraging users to take specific actions.
 
-            - ###### `Feature in our App:`
 
-                - We'll use this to showcase the key features and benefits of your app.
-                - Highlight what sets your app apart from others and why users should continue using it.
-                - All unregistered users or even registered ones before logging in will land/be here.
+    $$
+    \text{rightAngle} = |\text{rightRadians}| \times \frac{180}{\pi}
+    $$
 
-        ---
+     
 
-        - #### `Registration and Login:`
+   The formulas for the hands (curls detection) are:
 
-            - ###### `Description:`
+   $$
+   \theta_{\text{hand}} = \arctan2(y_{\text{wrist}} - y_{\text{elbow}}, x_{\text{wrist}} - x_{\text{elbow}}) - \arctan2(y_{\text{shoulder}} - y_{\text{elbow}}, x_{\text{shoulder}} - x_{\text{elbow}})
+   $$
 
-                - The registration and login process is a fundamental component of many digital applications, including your gamified health app.
-                - It's important to make this process smooth, secure, and user-friendly:
 
-            - ###### `Feature in our App:`
 
-                - Registration Page: Allows users to create an account with their personal information.
-                - Login Page: Enables users to log in with their credentials.
+   $$
+   \text{handAngle} = |\theta_{\text{hand}}| \times \frac{180}{\pi}
+   $$
 
-        ---
+    - Users get to enjoy real-time feedback , with the help of media pipe that ensures that exercises are performed correctly and detection speed is also optimized for faster recognition and feedback. This also safeguard us against user cheating some of the exercises.
 
-        - #### `Posts:`
+   <img src="./Images/pose_landmarks_index.png" width="750" height="600">
 
-            - ###### `Description:`
 
-                - This page in our gamified health app can be an effective way to share valuable content, updates, and engage with your user community.
-                - It will also motivate other users to keep up and participate more in challenges.
 
-            - ###### `Feature in our App:`
 
-                - Challenge winners might post their journey and tactics here.
-                - Users will post and brag about their health here.
-                - And also view posts from other users.
-                - Future Improvements:
-                    - Likes
-                    - Comments and tags
 
-        ---
+<img src="./Images/Exercise(1).png" width="750" height="600"> 
+<img src="./Images/Exercise(2).png" width="750" height="600"> 
 
-        - #### `Dashboard:`
+4. **Rewards and Incentives:**
+   - A portion of the ad revenue generated within the app is allocated as monthly rewards for top-performing group members.
+   - Users earn rewards based on their performance and consistency.
 
-            - ###### `Description:`
+5. **Premium Membership:**
+   - Subscribers to the premium tier enjoy additional benefits, including:
+     - The ability to participate in multiple exercise groups without limitations.
+     - Enhanced tracking and reporting features.
+     - Priority access to new features and content.
 
-                - Displays a summary of the user's health data and progress, providing a quick snapshot of their current status.
-                - This might Include visualizations like charts or graphs to show trends in their health data over time.
+### Tech Stack
 
-            - ###### `Feature in our App:`
+To make this vision a reality, we leverage a robust tech stack, including:
+- **React**: Cross-platform mobile development.
+- **MongoDB**:data management.
+- **Node.js**: Backend for scalability and responsiveness.
+- **Python**: Advanced computer vision for exercise monitoring.
 
-                - Progress Tracking:
-                    - Within the dashboard, have a section where users can dive deeper into their health data. This can include historical data, trends, and insights.
-                - Challenges:
-                    - Integrates the list of active challenges directly into the dashboard. Users can see ongoing challenges, their progress, and upcoming challenges.
-                    - Optional: Include a "Join Challenge" or "Start Challenge" button for easy participation.
-                    - Progress bar and point system for task completion.
-                - Tutorials:
-                    - We will add a dedicated section or card on the dashboard for tutorials and educational content.
-                    - Users can access tutorials related to health, fitness, nutrition, or app features directly from the dashboard.
+## How It Works
 
-        ---
+1. Users sign up and create their profiles.
+2. They can form or join exercise groups based on their preferences.
+3. Members of each group compete on a dynamic leaderboard.
+4. As they exercise, the app's camera monitoring provides real-time feedback and correctness scoring.
+5. Users earn rewards based on their performance, with top performers receiving monthly cash rewards.
 
-        - #### `Leaderboard:`
+## Monetization Strategy
 
-            - ###### `Description:`
+The app generates revenue through embedded ads. A portion of this ad revenue is reinvested into the community by rewarding the most dedicated and successful users. Premium subscriptions provide an additional source of income while offering enhanced features to subscribers.
 
-                - A "Leaderboard" is a popular feature in gamified apps that can encourage competition, engagement, and motivation among users.
-                - It ranks users based on their performance or achievements in various challenges or activities within the app.
+## Conclusion
 
-            - ###### `Feature in our App:`
+Our Gamified Health App is not just another fitness application; it's a holistic solution designed to inspire and empower individuals to lead healthier lives. By combining the power of gamification, social interaction, and real-time monitoring, we make fitness not only effective but also enjoyable. With an inclusive approach that caters to both free and premium users, we aim to foster a global community of health-conscious individuals who are excited about their fitness journeys.
 
-                - We will Rank Users from first to last based on Health Points in table form.
-                    - Allow users to filter the leaderboard by various criteria.
-                    - Sorting options so users can view the leaderboard based on different parameters like points, steps taken, or challenge participation.
-                - The top 3 Winners for Challenges will be listed here.
-                    - Highlight top-performing users with special badges, icons, or recognition.
-                    - For example, a "Top Challenger of the Month" badge.
-                - Display the rewards or prizes that users can earn for reaching specific leaderboard positions.
-                - This will allow users to Compare themselves with Others.
+Join us on this exciting adventure towards better health and fitness, one gamified workout at a time!
 
-        ---
 
-        - #### `Events Page:`
 
-            - ###### `Description:`
-                - This can be a valuable way to promote community engagement, provide users with information about health-related events, and encourage participation in various wellness activities.
+## Documentation
+[Project Idea](Documents/Health-App-Idea.pdf)
 
-            - ###### `Feature in our App:`
 
-                - Event Listings:
-                    - Display a list of upcoming health and wellness events, workshops, classes, or seminars.
-                    - Include essential details for each event, such as the event name, date, time, location, and a brief description.
-                - Filtering and Sorting:
-                    - Implement filters and sorting options to help users find events that match their interests, location, or preferred dates.
-                    - Allow users to filter events by category, such as fitness, nutrition, mental health, or community events.
-                - Event Details:
-                    - When a user clicks on an event listing, provide a dedicated page with comprehensive event details, including a more extensive description, speaker or instructor information, and registration or ticketing options.
+[Project Requirements](Documents/Monkey_and_River_Hackathon_2023_Phase_1_Specs)
 
-        ---
 
-        - #### `DoctorsPortal:`
-
-            - ###### `Description:`
-
-                - Enables users to search for nearby medical professionals and connect with them for advice or appointments.
-
-            - ###### `Feature in our App:`
-
-                - Nearby doctor search.
-                - Communication with medical professionals
-
-        ---
-
-        - #### `Settings:`
-
-            - ###### `Description:`
-
-
-
-            - ###### `Feature in our App:`
-
-                - User-set goals
-                - User input of health data (Weight, Water Intake, Steps, Sleep time, Avg daily Temparature and Heart Rate & Blood Pressure).
-                - The Inputs are a Score out of 100.
-                - User Reset Passwords.
-                - Edit profile.
-                - Delete account.
-                - Theme preferences (Optional).
-
-        ---
-
----
-
-- ## `Requirements Before Running Code:`
-
-    - Coming Soon!!
-
----
----
-
-<p align="center">The End, Thank You</p>
-
----
----
+[Project Stages](Documents/MnR_Hackathon_2023_P1_Itinerary.pdf)
