@@ -9,7 +9,7 @@ const linkClass = 'flex items-center gap-2 font-light px-3 py-2 hover:bg-neutral
 
 export default function Sidebar() {
 	return (
-		<div className="bg-neutral-800 w-60 p-3 flex flex-col">
+		<div className="bg-neutral-800 w-70 p-3 flex flex-col">
 			<div className="flex items-center gap-2 px-1 py-3">
 				<FaHeart size={24} />
 				<span className="text-neutral-200 text-lg">Gamified Health App</span>
@@ -23,10 +23,10 @@ export default function Sidebar() {
 				{DASHBOARD_SIDEBAR_BOTTOM_LINKS.map((link) => (
 					<SidebarLink key={link.key} link={link} />
 				))}
-				<div className={classNames(linkClass, 'cursor-pointer text-red-500')}>
-					<Link to="../../pages/Register"> {/* Logout Functionality */}
+				<div className={classNames(linkClass, 'cursor-pointer text-neutral-300')}>
+					<Link to="/">
 						<span className="text-xl">
-							<HiOutlineLogout />
+						 	<HiOutlineLogout />
 						</span>
 						Logout
 					</Link>
