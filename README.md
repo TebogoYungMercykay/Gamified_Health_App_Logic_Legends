@@ -3,13 +3,7 @@
 ## Project Team
 ---
 
-| Picture | Name (Nickname)      | Role(s)      |
-|---------|----------------------|--------------|
-| <img src="./Images/RandomImg.png" width="100" height="100"> | Dan Phala (DanPhala)            | Developer & Designer |
-| <img src="./Images/RandomImg.png" width="100" height="100"> | Bandisa Masilela (Keyboard warrior) | Developer & Designer |
-| <img src="./Images/RandomImg.png" width="100" height="100"> | Selepe Sello (TebogoYungMercyKay) | Developer & Designer |
-| <img src="./Images/RandomImg.png" width="100" height="100"> | Tumelo Mosomane (Mozocs)         | Developer & Designer |
-
+[Dan Phala](https://www.linkedin.com/in/dan-phala-7b91451b4?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Br4TxPQ2ZTg2ahxz%2BT6%2BSFg%3D%3D)
 
 ---
 # Gamified Health App: Transforming Fitness with Fun and Rewards
@@ -17,7 +11,9 @@
 ## Snipets
 
 ## User Interface
-<img src="./Images/UI(1).jpeg" width="600" height="600">
+
+
+<img src="./Images/UI(1).jpeg" width="600" height="500">
 
 
 ## Introduction
@@ -43,15 +39,15 @@ Our Gamified Health App aims to revolutionize the fitness landscape by offering 
    - Competition within groups adds an element of fun and motivation.
 
 
-<img src="./Images/UI(2).jpeg" width="600" height="600"> 
+<img src="./Images/UI(2).jpeg" width="750" height="600"> 
 
 3. **Camera Monitoring:**
    - The app utilizes the device's camera to monitor users as they perform exercises.
    - Real-time feedback ensures exercises are performed correctly and safely.
 
-   
-<img src="./Images/Exercise(1).png" width="600" height="600"> 
-<img src="./Images/Exercise(2).png" width="600" height="600"> 
+
+<img src="./Images/Exercise(1).png" width="750" height="600"> 
+<img src="./Images/Exercise(2).png" width="750" height="600"> 
 
 4. **Rewards and Incentives:**
    - A portion of the ad revenue generated within the app is allocated as monthly rewards for top-performing group members.
