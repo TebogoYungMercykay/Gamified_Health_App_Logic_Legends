@@ -53,7 +53,46 @@ Our Gamified Health App aims to revolutionize the fitness landscape by offering 
 
 3. **Camera Monitoring:**
    - The app utilizes the device's camera to monitor users as they perform exercises.
-   - Real-time feedback ensures exercises are performed correctly and safely.
+
+
+   - The following mathematical formula is used to calculate and determine the accuracy and correctness of the exercise:
+   
+   The formulas for the left and right legs (squarts detection) are:
+
+    $$
+    \text{leftRadians} = \arctan2(\text{leftHip}_y - \text{leftKnee}_y, \text{leftHip}_x - \text{leftKnee}_x) - \arctan2(\text{leftAnkle}_y - \text{leftKnee}_y, \text{leftAnkle}_x - \text{leftKnee}_x)
+    $$
+
+    $$
+    \text{leftAngle} = |\text{leftRadians}| \times \frac{180}{\pi}
+    $$
+
+
+   $$
+    \text{rightRadians} = \arctan2(\text{rightHip}_y - \text{rightKnee}_y, \text{rightHip}_x - \text{rightKnee}_x) - \arctan2(\text{rightAnkle}_y - \text{rightKnee}_y, \text{rightAnkle}_x - \text{rightKnee}_x)
+    $$
+
+    $$
+    \text{rightAngle} = |\text{rightRadians}| \times \frac{180}{\pi}
+    $$
+
+     
+   The formulas for the hands (curls detection) are:
+
+   $$
+   \theta_{\text{hand}} = \arctan2(y_{\text{wrist}} - y_{\text{elbow}}, x_{\text{wrist}} - x_{\text{elbow}}) - \arctan2(y_{\text{shoulder}} - y_{\text{elbow}}, x_{\text{shoulder}} - x_{\text{elbow}})
+   $$
+
+   $$
+   \text{handAngle} = |\theta_{\text{hand}}| \times \frac{180}{\pi}
+   $$
+
+   Real-time feedback , with the help of media pipe ensures exercises are performed correctly safely, and detection speed is also optimized for faster recognition and feedback. This also safeguard us against user cheating some of the exercises because it ensure that they are done correctly with correct pose as well.
+
+
+   <img src="./Images/pose_landmarks_index.png" width="750" height="600">
+
+
 
 
 <img src="./Images/Exercise(1).png" width="750" height="600"> 
