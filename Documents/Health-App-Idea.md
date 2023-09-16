@@ -53,7 +53,7 @@ Our Gamified Health App aims to revolutionize the fitness landscape by offering 
    $$
 
    $$
-   \text{hand\_angle} = |\theta_{\text{hand}}| \times \frac{180}{\pi}
+   \text{handAngle} = |\theta_{\text{hand}}| \times \frac{180}{\pi}
    $$
 
    Real-time feedback ensures exercises are performed correctly and safely.
