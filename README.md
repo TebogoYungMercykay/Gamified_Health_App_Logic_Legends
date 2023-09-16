@@ -1,5 +1,6 @@
 # 2023 Hackathon: Gamified Health App - Logic Legends
 
+## Project Team
 ---
 
 | Picture | Name (Nickname)      | Role(s)      |
@@ -78,5 +79,4 @@ Join us on this exciting adventure towards better health and fitness, one gamifi
 
 
 ## Documentation
-[Documents/Health-App-Idea.pdf] (Project Idea)
-[Documents/Monkey_and_River_Hackathon_2023_Phase_1_Specs.pdf](Requirements)
+[Link to PDF](Documentation/Health-App-Idea.pdf)
