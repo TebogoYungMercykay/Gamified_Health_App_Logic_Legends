@@ -79,4 +79,4 @@ Join us on this exciting adventure towards better health and fitness, one gamifi
 
 
 ## Documentation
-[Link to PDF](Documentation/Health-App-Idea.pdf)
+[Project Idea](Documents/Health-App-Idea.pdf)
