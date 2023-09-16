@@ -14,6 +14,10 @@
 ---
 # Gamified Health App: Transforming Fitness with Fun and Rewards
 
+## Snipets
+ <img src="./Images/Exercise(1).png" width="200" height="200"> 
+  <img src="./Images/Exercise(2).png" width="200" height="200"> 
+
 ## Introduction
 
 In today's fast-paced world, staying motivated and committed to a healthy lifestyle can be challenging. To address this, we are excited to introduce our innovative **Gamified Health App**, a unique fitness platform that combines gamification, social interaction, and rewards to make exercise enjoyable and engaging for everyone.
