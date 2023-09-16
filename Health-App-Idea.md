@@ -56,10 +56,10 @@ Our Gamified Health App aims to revolutionize the fitness landscape by offering 
    \text{handAngle} = |\theta_{\text{hand}}| \times \frac{180}{\pi}
    $$
 
-   Real-time feedback ensures exercises are performed correctly and safely.
+   Real-time feedback , with the help of media pipe ensures exercises are performed correctly safely, and detection speed is also optimized for faster recognition and feedback.
 
 
-   <img src="./Images/Exercise(1).png" width="550" height="300">
+   <img src="./Images/pose_landmarks_index.png" width="750" height="600">
 
 
 4. **Rewards and Incentives:**
