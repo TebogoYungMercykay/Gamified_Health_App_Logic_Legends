@@ -17,8 +17,8 @@
 ## Snipets
 
 **Exercise tracking**
-<img src="./Images/Exercise(1).png" width="2000" height="2000"> 
-<img src="./Images/Exercise(2).png" width="2000" height="2000"> 
+<img src="./Images/Exercise(1).png" width="1000" height="1000"> 
+<img src="./Images/Exercise(2).png" width="1000" height="1000"> 
 
 
 ## Introduction
