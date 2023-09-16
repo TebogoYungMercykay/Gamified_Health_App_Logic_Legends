@@ -78,5 +78,5 @@ Join us on this exciting adventure towards better health and fitness, one gamifi
 
 
 ## Documentation
-[https://github.com/MnR-Hackathon-Pool-A/2023-hackathon-logiclegends/blob/main/Documents/Health-App-Idea.pdf](Project Idea)
-[https://github.com/MnR-Hackathon-Pool-A/2023-hackathon-logiclegends/blob/main/Documents/Monkey_and_River_Hackathon_2023_Phase_1_Specs.pdf](Requirements)
+[Documents/Health-App-Idea.pdf] (Project Idea)
+[Documents/Monkey_and_River_Hackathon_2023_Phase_1_Specs.pdf](Requirements)
