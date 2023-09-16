@@ -18,7 +18,7 @@ export default function healthChallenge() {
 							<th>Reward</th>
 							<th>Participants</th>
 							<th>Closing Date</th>
-							<th>Challenge Status</th>
+							<th>Status</th>
 						</tr>
 					</thead>
 					<tbody>
