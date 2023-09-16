@@ -19,7 +19,7 @@
 ## User Interface
 
 
-<img src="./Images/UI(1).jpeg" width="600" height="750">
+<img src="./Images/UI(1).jpeg" width="500" height="750">
 
 
 ## Introduction
