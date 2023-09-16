@@ -125,16 +125,28 @@ function Meeting({ meeting }) {
 						<div className="py-1">
 							<Menu.Item>
 								{({ active }) => (
-									<a href="#" className = {classNames(active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 'block px-4 py-2 text-sm' )}> {/* eslint-disable-next-line */}
-										Edit
-									</a>
+									<button
+									type="button"
+									className={classNames(
+										active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+										'block px-4 py-2 text-sm'
+									)}
+									>
+									Edit
+									</button>
 								)}
 							</Menu.Item>
 							<Menu.Item>
 								{({ active }) => (
-									<a href="#" className = {classNames(active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 'block px-4 py-2 text-sm' )}> {/* eslint-disable-next-line */}
-										Cancel
-									</a>
+									<button
+									type="button"
+									className={classNames(
+										active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+										'block px-4 py-2 text-sm'
+									)}
+									>
+									Cancel
+									</button>
 								)}
 							</Menu.Item>
 						</div>
