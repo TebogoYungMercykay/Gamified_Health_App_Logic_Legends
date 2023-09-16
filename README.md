@@ -16,7 +16,7 @@
 
 ## Snipets
 
-**User Interface**
+## User Interface
 <img src="./Images/UI(1).jpeg" width="600" height="600">
 
 
@@ -41,11 +41,15 @@ Our Gamified Health App aims to revolutionize the fitness landscape by offering 
 2. **Leaderboards:**
    - Each exercise group has its own leaderboard that tracks members' progress and achievements.
    - Competition within groups adds an element of fun and motivation.
+
+
 <img src="./Images/UI(2).jpeg" width="600" height="600"> 
 
 3. **Camera Monitoring:**
    - The app utilizes the device's camera to monitor users as they perform exercises.
    - Real-time feedback ensures exercises are performed correctly and safely.
+
+   
 <img src="./Images/Exercise(1).png" width="600" height="600"> 
 <img src="./Images/Exercise(2).png" width="600" height="600"> 
 
