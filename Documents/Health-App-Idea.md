@@ -36,7 +36,7 @@ Our Gamified Health App aims to revolutionize the fitness landscape by offering 
     \text{left\_angle} = |\text{left\_radians}| \times \frac{180}{\pi}
     $$
 
-   
+     
    Real-time feedback ensures exercises are performed correctly and safely.
 
 4. **Rewards and Incentives:**
