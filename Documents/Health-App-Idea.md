@@ -58,6 +58,10 @@ Our Gamified Health App aims to revolutionize the fitness landscape by offering 
 
    Real-time feedback ensures exercises are performed correctly and safely.
 
+
+   <img src="./Images/Exercise(1).png" width="550" height="300">
+
+
 4. **Rewards and Incentives:**
    - A portion of the ad revenue generated within the app is allocated as monthly rewards for top-performing group members.
    - Users earn rewards based on their performance and consistency.
