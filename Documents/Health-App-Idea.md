@@ -29,11 +29,11 @@ Our Gamified Health App aims to revolutionize the fitness landscape by offering 
    The formulas for the left leg are:
 
     $$
-    \text{left\_radians} = \arctan2(\text{left\_hip}_y - \text{left\_knee}_y, \text{left\_hip}_x - \text{left\_knee}_x) - \arctan2(\text{left\_ankle}_y - \text{left\_knee}_y, \text{left\_ankle}_x - \text{left\_knee}_x)
+    \text{leftRadians} = \arctan2(\text{leftHip}_y - \text{leftknee}_y, \text{lefthip}_x - \text{leftKnee}_x) - \arctan2(\text{leftAnkle}_y - \text{leftKnee}_y, \text{leftAnkle}_x - \text{leftKnee}_x)
     $$
 
     $$
-    \text{left\_angle} = |\text{left\_radians}| \times \frac{180}{\pi}
+    \text{leftAngle} = |\text{leftRadians}| \times \frac{180}{\pi}
     $$
 
      
