@@ -34,7 +34,7 @@ function Tutorial() {
 									'text-xs font-medium'
 								)}
 							>
-								{Tutorial.Tutorial_participants === 0 ? 'Closed Tutorial' : Tutorial.Tutorial_participants + ' Open Tutorial'}
+								{Tutorial.Tutorial_participants === 0 ? 'Closed Tutorial' : Tutorial.Tutorial_participants + ' Views'}
 							</span>
 						</div>
 						<div className="text-xs text-gray-400 pl-1.5">{Tutorial.Tutorial_instructor}</div>
