@@ -74,3 +74,9 @@ The app generates revenue through embedded ads. A portion of this ad revenue is 
 Our Gamified Health App is not just another fitness application; it's a holistic solution designed to inspire and empower individuals to lead healthier lives. By combining the power of gamification, social interaction, and real-time monitoring, we make fitness not only effective but also enjoyable. With an inclusive approach that caters to both free and premium users, we aim to foster a global community of health-conscious individuals who are excited about their fitness journeys.
 
 Join us on this exciting adventure towards better health and fitness, one gamified workout at a time!
+
+
+
+## Documentation
+[https://github.com/MnR-Hackathon-Pool-A/2023-hackathon-logiclegends/blob/main/Documents/Health-App-Idea.pdf](Project Idea)
+[https://github.com/MnR-Hackathon-Pool-A/2023-hackathon-logiclegends/blob/main/Documents/Monkey_and_River_Hackathon_2023_Phase_1_Specs.pdf](Requirements)
