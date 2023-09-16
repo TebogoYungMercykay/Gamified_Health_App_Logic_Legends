@@ -28,9 +28,13 @@ Our Gamified Health App aims to revolutionize the fitness landscape by offering 
    
    The formulas for the left leg are:
 
-    $$\text{left\_radians} = \arctan2\left(\text{left\_hip}_y - \text{left\_knee}_y, \text{left\_hip}_x - \text{left\_knee}_x\right) - \arctan2\left(\text{left\_ankle}_y - \text{left\_knee}_y, \text{left\_ankle}_x - \text{left\_knee}_x\right)$$
+    $$
+    \text{left\_radians} = \arctan2(\text{left\_hip}_y - \text{left\_knee}_y, \text{left\_hip}_x - \text{left\_knee}_x) - \arctan2(\text{left\_ankle}_y - \text{left\_knee}_y, \text{left\_ankle}_x - \text{left\_knee}_x)
+    $$
 
-    $$\text{left\_angle} = |\text{left\_radians}| \times \frac{180}{\pi}$$
+    $$
+    \text{left\_angle} = |\text{left\_radians}| \times \frac{180}{\pi}
+    $$
 
    
    Real-time feedback ensures exercises are performed correctly and safely.
