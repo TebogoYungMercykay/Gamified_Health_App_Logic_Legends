@@ -26,14 +26,23 @@ Our Gamified Health App aims to revolutionize the fitness landscape by offering 
    - The app utilizes the device’s camera to monitor users as they perform exercises.
    - The following mathematical formula is used to calculate and determine the accuracy and correctness of the exercise:
    
-   The formulas for the left leg are:
+   The formulas for the left and right legs (squarts detection) are:
 
     $$
-    \text{leftRadians} = \arctan2(\text{leftHip}_y - \text{leftknee}_y, \text{lefthip}_x - \text{leftKnee}_x) - \arctan2(\text{leftAnkle}_y - \text{leftKnee}_y, \text{leftAnkle}_x - \text{leftKnee}_x)
+    \text{leftRadians} = \arctan2(\text{leftHip}_y - \text{leftKnee}_y, \text{leftHip}_x - \text{leftKnee}_x) - \arctan2(\text{leftAnkle}_y - \text{leftKnee}_y, \text{leftAnkle}_x - \text{leftKnee}_x)
     $$
 
     $$
     \text{leftAngle} = |\text{leftRadians}| \times \frac{180}{\pi}
+    $$
+
+
+   $$
+    \text{rightRadians} = \arctan2(\text{rightHip}_y - \text{rightKnee}_y, \text{rightHip}_x - \text{rightKnee}_x) - \arctan2(\text{rightAnkle}_y - \text{rightKnee}_y, \text{rightAnkle}_x - \text{rightKnee}_x)
+    $$
+
+    $$
+    \text{rightAngle} = |\text{rightRadians}| \times \frac{180}{\pi}
     $$
 
      
