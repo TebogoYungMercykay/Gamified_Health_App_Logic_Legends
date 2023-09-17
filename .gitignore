@@ -1,3 +1,10 @@
 # Environment Variable
 *.env
-aws-exports.js
+
+# Vs Code
+
+*.vscode
+*.idea
+
+# Node Modules
+node_modules
