@@ -8,7 +8,7 @@ export default class UserService {
     
     async createUser(name, email, password ) {
         try {
-            // check if email already exists
+            // check if email already existss
             const existingUser = await this.userRepository.findUserByEmail(email);
             if (existingUser) {
                 const error = new Error('Email already exists');
