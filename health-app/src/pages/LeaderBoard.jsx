@@ -19,7 +19,7 @@ const DashboardTable = ({ data }) => {
 						<TopCard
 							backgroundColor = "#aad8fe"
 							backgroundImage = "linear-gradient(to right,#1b88cc, #2d2d2d)"
-							avatar = {data[1].avatar}
+							avatar = 'https://cdn3d.iconscout.com/3d/premium/thumb/profile-5590850-4652486.png'
 							name = {data[1].name}
 							subName = {data[1].nickname}
 							imageSrc = "https://i.pinimg.com/736x/98/5d/35/985d350fbb0c495a5d106f7f48773d04.jpg"
@@ -29,9 +29,9 @@ const DashboardTable = ({ data }) => {
 						<TopCard
 							backgroundColor = "#7febc3"
 							backgroundImage = "linear-gradient(to right,#47ad90, #0a553c)"
-							avatar = {data[1].avatar}
+							avatar = 'https://cdn3d.iconscout.com/3d/premium/thumb/profile-5590850-4652486.png'
 							name = {data[0].name}
-							subName = {data[1].nickname}
+							subName = {data[0].nickname}
 							imageSrc = "https://img.freepik.com/free-vector/number-one-award-winner-golden-label-design_1017-27871.jpg"
 						/>
 					)}
@@ -39,9 +39,9 @@ const DashboardTable = ({ data }) => {
 						<TopCard
 							backgroundColor = "#aad8fe"
 							backgroundImage = "linear-gradient(to right,#1b88cc, #2d2d2d)"
-							avatar = {data[1].avatar}
+							avatar = 'https://cdn3d.iconscout.com/3d/premium/thumb/profile-5590850-4652486.png'
 							name = {data[2].name}
-							subName = {data[1].nickname}
+							subName = {data[2].nickname}
 							imageSrc = "https://us.123rf.com/450wm/imazydreams/imazydreams1508/imazydreams150800145/43247288-3rd-bronze-medal.jpg?ver=6"
 						/>
 					)}
@@ -108,4 +108,5 @@ const Dashboard = () => {
 
 	return <DashboardTable data={sortedData} />;
 };
+
 export default Dashboard;
