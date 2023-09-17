@@ -11,8 +11,8 @@ export default function Sidebar() {
 	return (
 		<div className="bg-neutral-800 w-70 p-3 flex flex-col">
 			<div className="flex items-center gap-2 px-1 py-3">
-				<FaHeart size={24} />
-				<span className="text-neutral-200 text-lg">Gamified Health App</span>
+				<FaHeart size={24} style={{ color: 'grey' }}/>
+				<span className="text-neutral-200 text-lg">_LogicLegends</span>
 			</div>
 			<div className="py-8 flex flex-1 flex-col gap-0.5">
 				{DASHBOARD_SIDEBAR_LINKS.map((link) => (
