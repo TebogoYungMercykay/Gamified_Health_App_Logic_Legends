@@ -1,19 +1,19 @@
 export const users = [
     {
         name: 'Alice',
-        surname: 'moller',
+        // surname: 'moller',
         email: 'alice@example.com',
         password: 'AliceExample123$'
     },
     {
         name: 'Bob',
-        surname: 'kaller',
+        // surname: 'kaller',
         email: 'bob@example.com',
         password: 'bobExample123$'
     },
     {
         name: 'Charlie',
-        surname: 'kaller',
+        // surname: 'kaller',
         email: 'charlie@example.com',
         password: 'charlieExample123$'
     },
@@ -23,7 +23,7 @@ export const users = [
     },
     {
         name: 'Alice',
-        surname: 'kaller',
+        // surname: 'kaller',
         email: 'alice@example.com',
         password: 'bobExample123$'
     },

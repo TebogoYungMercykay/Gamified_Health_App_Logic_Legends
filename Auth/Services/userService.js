@@ -6,7 +6,7 @@ export default class UserService {
         this.userRepository = userRepository;
     }
     
-    async createUser(name, surname, email, password ) {
+    async createUser(name, email, password ) {
         try {
             // check if email already exists
             const existingUser = await this.userRepository.findUserByEmail(email);
@@ -23,7 +23,7 @@ export default class UserService {
             
             const user = await this.userRepository.createUser({
                 'name': name,
-                'surname': surname,
+                // 'surname': surname,
                 'email': email,
                 'password': hashedPassword,
             });

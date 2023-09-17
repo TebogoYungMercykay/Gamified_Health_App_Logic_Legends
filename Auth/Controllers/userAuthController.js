@@ -10,11 +10,11 @@ export const createUser = async (req, res) => {
             throw error;
         }
         // request body object destructuring 
-        const { name, surname, email, password } = req.body;
+        const { name, email, password } = req.body;
         // Resolve the userService from the container
         const userService = req.container.resolve('userService');
         // Call the createUser function from the controller
-        const userId = await userService.createUser(name, surname, email, password);
+        const userId = await userService.createUser(name, email, password);
 
         res.status(201).send({ // Created
             message: 'User created successfully',

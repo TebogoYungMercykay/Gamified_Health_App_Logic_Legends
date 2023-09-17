@@ -24,7 +24,7 @@ describe('Test the user auth routes', () => {
             expect(response.status).toBe(400);
         }, 10000);
 
-        test('should response with 409 status if email or username already in the database', async () => { 
+        test('should response with 409 status if email already in the database', async () => {
             const response = await supertest(app).post('/api/auth/register').send(users[0]);
             expect(response.status).toBe(409);
         }, 10000);
@@ -47,6 +47,4 @@ describe('Test the user auth routes', () => {
             expect(response.status).toBe(401);
         });
     });
-    
-
 });
