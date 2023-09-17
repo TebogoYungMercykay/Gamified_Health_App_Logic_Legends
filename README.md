@@ -116,6 +116,10 @@
       - Next.js
    - **MongoDB**:data management.
    - **Node.js**: Backend for scalability and responsiveness.
+   - **GraphQL**:
+      - AWS Lambda
+      - JWT
+         <img src="./Images/GraphQL.png" width="550" height="220">
    - **Python**: Advanced computer vision for exercise monitoring.
 
 - ## How It Works
