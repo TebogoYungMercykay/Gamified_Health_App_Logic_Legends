@@ -5,7 +5,6 @@
 
 ## Project team members
 
----
    - [Dan Phala](https://www.linkedin.com/in/dan-phala-7b91451b4?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Br4TxPQ2ZTg2ahxz%2BT6%2BSFg%3D%3D)
 
    - [Tumelo Mosomane](https://www.linkedin.com/in/tumelo4?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BVyd3ktLVTUuOPSRQ1HqXig%3D%3D)
@@ -20,7 +19,7 @@
 
 - ## User Interface
 
-   - <img src="./Images/UI(1).jpeg" width="600" height="500">
+   - <img src="./Images/UI_Design_Layout/Signup_Login_UI.png" width="800" height="450">
 
 
 - ## Introduction
