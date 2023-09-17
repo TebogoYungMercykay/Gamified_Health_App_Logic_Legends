@@ -19,7 +19,7 @@
 
 - ## User Interface
 
-   - <img src="./Images/UI_Design_Layout/UI_Design_Layout.png" width="600" height="500">
+   - <img src="./Images/UI_Design_Layout/Signup_Login_UI.png" width="800" height="450">
 
 
 - ## Introduction
