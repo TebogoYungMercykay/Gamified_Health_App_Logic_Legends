@@ -37,7 +37,7 @@ const Sidebar = () => {
                         <span className="text-xl">
                           <HiOutlineLogout />
                         </span>
-                        <h3>Logout</h3>
+                        <div className=' text-base'>Logout</div>
                     </Link>
                 </div>
             </div>
