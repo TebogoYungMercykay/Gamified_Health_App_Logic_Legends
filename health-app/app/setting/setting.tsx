@@ -9,7 +9,7 @@ import AdsPreferences from "@/app/components/settings/AdsPreferences";
 
 const Setting = () => {
     return (
-        <div className=' flex p-3 gap-8 flex-col'>
+        <div className=' flex p-3 gap-3 flex-col'>
             <Profile />
             <Notification />
             <Privacy />
@@ -17,7 +17,7 @@ const Setting = () => {
             <Support />
             <About />
             <AdsPreferences />
-            <button className=' w-full bg-red-400'>Delete Account</button>
+            <button className=' uppercase w-full p-6 bg-red-200 hover:bg-red-300 duration-500 ease-in-out'>Delete Account</button>
         </div>
     )
 }
