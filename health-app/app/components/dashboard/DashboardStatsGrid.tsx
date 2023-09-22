@@ -78,22 +78,3 @@ const  BoxWrapper = ({children}: BoxWrapperProps) => {
 }
 
 export default DashboardStatsGrid
-
-{/* <BoxWrapper>
-                <IoWater className = "text-2xl text-white" />
-                <div className = "pl-4">
-                    <span className = "text-sm text-gray-500 font-light">{gridData[0].category}</span>
-                    <div className = "flex items-center">
-                        <strong className = {`text-xl font-semibold ${getColor(gridData[0].progress} / gridData[0].target)}`}>{gridData[0].progress}}</strong>
-                        <span className = {`text-sm pl-2 ${getColor(gridData[0].progress} / gridData[0].target)}`}>{gridData[0].target}</span>
-                    </div>
-                </div>
-            </BoxWrapper>
-
-            const getColor = (percentage) => {
-    if (percentage >= 1) return 'text-green-500';
-    if (percentage >= 0.8) return 'text-yellow-500';
-    if (percentage >= 0.6) return 'text-orange-500';
-    if (percentage >= 0.4) return 'text-pink-500';
-    return 'text-red-500';
-} */}
