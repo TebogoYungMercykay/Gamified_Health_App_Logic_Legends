@@ -1,7 +1,7 @@
 const LeaderBoardData = [
     {
         name: 'John Doe',
-        avatar: "https://cdn3d.iconscout.com/3d/premium/thumb/profile-5590850-4652486.png",
+        avatar: "#",
         nickname: 'The Contender',
         SquatsPoints: Math.floor(Math.random() * (96 - 20 + 1)) + 20,
         WeightPoints: Math.floor(Math.random() * (96 - 20 + 1)) + 20,
@@ -9,7 +9,7 @@ const LeaderBoardData = [
     },
     {
         name: 'Jane Smith',
-        avatar: "https://cdn3d.iconscout.com/3d/premium/thumb/profile-5590850-4652486.png",
+        avatar: "#",
         nickname: 'Challenger Champ',
         SquatsPoints: Math.floor(Math.random() * (96 - 20 + 1)) + 20,
         WeightPoints: Math.floor(Math.random() * (96 - 20 + 1)) + 20,
@@ -17,7 +17,7 @@ const LeaderBoardData = [
     },
     {
         name: 'Alice Johnson',
-        avatar: "https://cdn3d.iconscout.com/3d/premium/thumb/profile-5590850-4652486.png",
+        avatar: "#",
         nickname: 'Rival Ruler',
         SquatsPoints: Math.floor(Math.random() * (96 - 20 + 1)) + 20,
         WeightPoints: Math.floor(Math.random() * (96 - 20 + 1)) + 20,
@@ -25,7 +25,7 @@ const LeaderBoardData = [
     },
     {
         name: 'Bob Williams',
-        avatar: "https://cdn3d.iconscout.com/3d/premium/thumb/profile-5590850-4652486.png",
+        avatar: "#",
         nickname: 'Opponent Oracle',
         SquatsPoints: Math.floor(Math.random() * (96 - 20 + 1)) + 20,
         WeightPoints: Math.floor(Math.random() * (96 - 20 + 1)) + 20,
@@ -33,7 +33,7 @@ const LeaderBoardData = [
     },
     {
         name: 'Emily Davis',
-        avatar: "https://cdn3d.iconscout.com/3d/premium/thumb/profile-5590850-4652486.png",
+        avatar: "#",
         nickname: 'Adversary Ace',
         SquatsPoints: Math.floor(Math.random() * (96 - 20 + 1)) + 20,
         WeightPoints: Math.floor(Math.random() * (96 - 20 + 1)) + 20,
@@ -41,7 +41,7 @@ const LeaderBoardData = [
     },
     {
         name: 'Michael Brown',
-        avatar: "https://cdn3d.iconscout.com/3d/premium/thumb/profile-5590850-4652486.png",
+        avatar: "#",
         nickname: 'Competitive Dynamo',
         SquatsPoints: Math.floor(Math.random() * (96 - 20 + 1)) + 20,
         WeightPoints: Math.floor(Math.random() * (96 - 20 + 1)) + 20,
@@ -49,7 +49,7 @@ const LeaderBoardData = [
     },
     {
         name: 'Olivia Wilson',
-        avatar: "https://cdn3d.iconscout.com/3d/premium/thumb/profile-5590850-4652486.png",
+        avatar: "#",
         nickname: 'Foe Phenom',
         SquatsPoints: Math.floor(Math.random() * (96 - 20 + 1)) + 20,
         WeightPoints: Math.floor(Math.random() * (96 - 20 + 1)) + 20,
@@ -57,7 +57,7 @@ const LeaderBoardData = [
     },
     {
         name: 'David Lee',
-        avatar: "https://cdn3d.iconscout.com/3d/premium/thumb/profile-5590850-4652486.png",
+        avatar: "#",
         nickname: 'Rivalry Maestro',
         SquatsPoints: Math.floor(Math.random() * (96 - 20 + 1)) + 20,
         WeightPoints: Math.floor(Math.random() * (96 - 20 + 1)) + 20,
@@ -65,7 +65,7 @@ const LeaderBoardData = [
     },
     {
         name: 'Sophia Miller',
-        avatar: "https://cdn3d.iconscout.com/3d/premium/thumb/profile-5590850-4652486.png",
+        avatar: "#",
         nickname: 'Challenger Chieftain',
         SquatsPoints: Math.floor(Math.random() * (96 - 20 + 1)) + 20,
         WeightPoints: Math.floor(Math.random() * (96 - 20 + 1)) + 20,
@@ -73,7 +73,7 @@ const LeaderBoardData = [
     },
     {
         name: 'Liam Moore',
-        avatar: "https://cdn3d.iconscout.com/3d/premium/thumb/profile-5590850-4652486.png",
+        avatar: "#",
         nickname: 'Adversarial Virtuoso',
         SquatsPoints: Math.floor(Math.random() * (96 - 20 + 1)) + 20,
         WeightPoints: Math.floor(Math.random() * (96 - 20 + 1)) + 20,
@@ -81,7 +81,7 @@ const LeaderBoardData = [
     },
     {
         name: 'Ava Taylor',
-        avatar: "https://cdn3d.iconscout.com/3d/premium/thumb/profile-5590850-4652486.png",
+        avatar: "#",
         nickname: 'Contestant Crusader',
         SquatsPoints: Math.floor(Math.random() * (96 - 20 + 1)) + 20,
         WeightPoints: Math.floor(Math.random() * (96 - 20 + 1)) + 20,
@@ -89,7 +89,7 @@ const LeaderBoardData = [
     },
     {
         name: 'William Clark',
-        avatar: "https://cdn3d.iconscout.com/3d/premium/thumb/profile-5590850-4652486.png",
+        avatar: "#",
         nickname: 'Opponent Overlord',
         SquatsPoints: Math.floor(Math.random() * (96 - 20 + 1)) + 20,
         WeightPoints: Math.floor(Math.random() * (96 - 20 + 1)) + 20,
@@ -97,7 +97,7 @@ const LeaderBoardData = [
     },
     {
         name: 'Mia White',
-        avatar: "https://cdn3d.iconscout.com/3d/premium/thumb/profile-5590850-4652486.png",
+        avatar: "#",
         nickname: 'Champion Challenger',
         SquatsPoints: Math.floor(Math.random() * (96 - 20 + 1)) + 20,
         WeightPoints: Math.floor(Math.random() * (96 - 20 + 1)) + 20,

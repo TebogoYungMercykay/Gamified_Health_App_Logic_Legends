@@ -31,7 +31,7 @@ const LeaderBoardTable = ({data} : any) => {
                         <TopCard
                             backgroundColor = "#aad8fe"
                             backgroundImage = "linear-gradient(to right,#1b88cc, #2d2d2d)"
-                            avatar = 'https://cdn3d.iconscout.com/3d/premium/thumb/profile-5590850-4652486.png'
+                            avatar = {data[1].avatar}
                             name = {data[1].name}
                             subName = {data[1].nickname}
                             imageSrc = "https://i.pinimg.com/736x/98/5d/35/985d350fbb0c495a5d106f7f48773d04.jpg"
@@ -41,7 +41,7 @@ const LeaderBoardTable = ({data} : any) => {
                         <TopCard
                             backgroundColor = "#7febc3"
                             backgroundImage = "linear-gradient(to right,#47ad90, #0a553c)"
-                            avatar = 'https://cdn3d.iconscout.com/3d/premium/thumb/profile-5590850-4652486.png'
+                            avatar = {data[0].avatar}
                             name = {data[0].name}
                             subName = {data[0].nickname}
                             imageSrc = "https://img.freepik.com/free-vector/number-one-award-winner-golden-label-design_1017-27871.jpg"
@@ -51,7 +51,7 @@ const LeaderBoardTable = ({data} : any) => {
                         <TopCard
                             backgroundColor = "#aad8fe"
                             backgroundImage = "linear-gradient(to right,#1b88cc, #2d2d2d)"
-                            avatar = 'https://cdn3d.iconscout.com/3d/premium/thumb/profile-5590850-4652486.png'
+                            avatar = {data[2].avatar}
                             name = {data[2].name}
                             subName = {data[2].nickname}
                             imageSrc = "https://us.123rf.com/450wm/imazydreams/imazydreams1508/imazydreams150800145/43247288-3rd-bronze-medal.jpg?ver=6"
