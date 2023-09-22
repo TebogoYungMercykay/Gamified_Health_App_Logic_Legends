@@ -1,0 +1,33 @@
+.not-found {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./WorkOut.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.display-text {
+    display: flex;
+    color: rgb(224, 224, 224);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    border: 3px solid #517473;
+    height: 30%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(43, 43, 43, 0.845);
+    margin-bottom: 20%;
+}
+
+.display-text h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.display-text p {
+    font-size: 20px;
+}
