@@ -38,7 +38,7 @@ const ChallengesData = [
     {
         challenge_id: '5',
         Tutorial_id: '3432',
-        challenge_name: 'Lose 5kg of Body Weight in 30 Days',
+        challenge_name: 'Lose 8kg of Body Weight in 30 Days',
         closing_date: '2023-09-14T11:30:00',
         Reward: '$116.35',
         Challenge_participants: 87,
