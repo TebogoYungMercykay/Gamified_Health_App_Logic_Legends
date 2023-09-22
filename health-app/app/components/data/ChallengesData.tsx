@@ -47,7 +47,7 @@ const ChallengesData = [
     {
         challenge_id: '6',
         Tutorial_id: '4342',
-        challenge_name: 'Complete 100 Curls Daily for 30 Days',
+        challenge_name: 'Complete 100000 Curls Daily for 30 Days',
         closing_date: '2023-12-15T12:00:00',
         Reward: '$53.35',
         Challenge_participants: 45,
