@@ -1,21 +1,21 @@
 'use client'
 import React, { useMemo, useEffect, useState } from 'react';
 import TopCard from "@/app/components/leaderboard/TopCard";
-import tempValue from "@/app/components/data/LeaderBoardData";
+import LeaderBoardData from "@/app/components/data/LeaderBoardData";
 
 interface  dataWithAverageType {
     average: number;
     name: string;
     avatar: string;
     nickname: string;
-    WaterIntakePoint: number;
-    WeightPoint: number;
-    Sleep: number;
+    CurlsPoints: number;
+    WeightPoints: number;
+    SquatsPoints: number;
 }
 
 
-const calculateAverage = (item: any) => {
-    return (item.WaterIntakePoint + item.WeightPoint + item.Sleep) / 3;
+const calculateAverage = (leaderboard_data: any) => {
+    return (leaderboard_data.CurlsPoints + leaderboard_data.WeightPoints + leaderboard_data.SquatsPoints) / 3;
 };
 
 const sortDataByAverage = (data: any) => {
@@ -74,13 +74,13 @@ const LeaderBoardTable = ({data} : any) => {
                             Name
                         </th>
                         <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                            Water Intake
+                            Weight (Points)
                         </th>
                         <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                            Weight
+                            Curls (Points)
                         </th>
                         <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                            Sleep
+                            Squats (Points)
                         </th>
                         <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                             Average
@@ -89,13 +89,13 @@ const LeaderBoardTable = ({data} : any) => {
                     </thead>
                     <tbody className="bg-white divide-y divide-gray-200">
                     {
-                        data.map((item: any) => (
-                        <tr key={item.name}>
-                            <td className="px-6 py-4 whitespace-nowrap">{item.name}</td>
-                            <td className="px-6 py-4 whitespace-nowrap">{item.WaterIntakePoint}</td>
-                            <td className="px-6 py-4 whitespace-nowrap">{item.WeightPoint}</td>
-                            <td className="px-6 py-4 whitespace-nowrap">{item.Sleep}</td>
-                            <td className="px-6 py-4 whitespace-nowrap">{item.average.toFixed(2)}</td>
+                        data.map((leaderboard_data: any) => (
+                        <tr key={leaderboard_data.name}>
+                            <td className="px-6 py-4 whitespace-nowrap">{leaderboard_data.name}</td>
+                            <td className="px-6 py-4 whitespace-nowrap">{leaderboard_data.CurlsPoints}</td>
+                            <td className="px-6 py-4 whitespace-nowrap">{leaderboard_data.WeightPoints}</td>
+                            <td className="px-6 py-4 whitespace-nowrap">{leaderboard_data.SquatsPoints}</td>
+                            <td className="px-6 py-4 whitespace-nowrap">{leaderboard_data.average.toFixed(2)}</td>
                         </tr>
                     ))}
                     </tbody>
@@ -110,7 +110,7 @@ const LeaderBoard = () => {
     const [dataWithAverage, setDataWithAverage] = useState<dataWithAverageType[]>([]);
 
     useEffect(() => {
-        const data = tempValue.map((item) => ({
+        const data = LeaderBoardData.map((item) => ({
             ...item,
             average: calculateAverage(item),
         }));
