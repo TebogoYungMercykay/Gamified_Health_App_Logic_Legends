@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { IoLogoYoutube } from 'react-icons/io5';
 import HealthTutorials from '@/app/components/data/TutorialsData';
-import Modal from './Modals/modal';
+import Modal from '../Modals/modal';
 
 const Tutorials = () => {
   const [showVideoModal, setShowVideoModal] = useState(false);
