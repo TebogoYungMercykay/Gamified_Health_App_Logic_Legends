@@ -1,5 +1,5 @@
 'use client'
-import React from 'react'
+import React, { useEffect, Fragment, useState } from 'react'
 import { Menu, Transition } from '@headlessui/react'
 import { DotsVerticalIcon } from '@heroicons/react/outline'
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/solid'
@@ -20,7 +20,6 @@ import {
     startOfToday
 } from 'date-fns'
 
-import { Fragment, useState } from 'react'
 import EventsData from "@/app/components/data/EventsData";
 
 const  classNames = (...classes: any)  => {
@@ -32,6 +31,43 @@ const Events = () => {
     let [selectedDay, setSelectedDay] = useState(today)
     let [currentMonth, setCurrentMonth] = useState(format(today, 'MMM-yyyy'))
     let firstDayCurrentMonth = parse(currentMonth, 'MMM-yyyy', new Date())
+
+    const [hours, setHours] = useState(new Date().getHours());
+    const [minutes, setMinutes] = useState(new Date().getMinutes());
+    const [seconds, setSeconds] = useState(new Date().getSeconds());
+
+    useEffect(() => {
+        const updateTimer = () => {
+        // Update seconds and handle rollover
+        setSeconds((prevSeconds) => {
+            const newSeconds = prevSeconds + 1;
+            if (newSeconds === 60) {
+            // If seconds reach 60, reset to 0 and increment minutes
+            setMinutes((prevMinutes) => {
+                const newMinutes = prevMinutes + 1;
+                if (newMinutes === 60) {
+                // If minutes reach 60, reset to 0 and increment hours
+                setHours((prevHours) => (prevHours + 1) % 24);
+                }
+                return newMinutes;
+            });
+            return 0;
+            }
+            return newSeconds;
+        });
+        };
+
+        // Update the timer immediately when the component mounts
+        updateTimer();
+
+        // Start the interval after the initial update
+        const timer = setInterval(updateTimer, 1000);
+
+        return () => clearInterval(timer);
+    }, []);
+
+    // Format the time for display
+    const formattedTime = `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
 
     let days = eachDayOfInterval({
         start: firstDayCurrentMonth,
@@ -54,6 +90,11 @@ const Events = () => {
 
     return (
         <div className="pt-16">
+            <div className="max-w-md px-4 mx-auto sm:px-7 md:max-w-4xl md:px-6">
+                <h1 className="text-6xl font-bold text-center mb-12">
+                    <span id="clock">{formattedTime}</span>
+                </h1>
+            </div>
             <div className="max-w-md px-4 mx-auto sm:px-7 md:max-w-4xl md:px-6">
                 <div className="md:grid md:grid-cols-2 md:divide-x md:divide-gray-200">
                     <div className="md:pr-14">
@@ -174,4 +215,5 @@ const Meeting = ({ meeting }: any) => {
 }
 
 let colStartClasses = [ '', 'col-start-2', 'col-start-3', 'col-start-4', 'col-start-5', 'col-start-6', 'col-start-7']
+
 export default Events
