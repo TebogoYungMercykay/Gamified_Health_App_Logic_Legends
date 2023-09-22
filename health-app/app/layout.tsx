@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Health App',
-  description: 'Logic Legends, MnR Hackathon',
+  description: 'Gamified health App by the Logic Legends, MnR Hackathon',
 }
 
 export default function RootLayout({
