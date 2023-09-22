@@ -59,4 +59,5 @@ const SidebarLink = ({ link, router }: SidebarLinkProps) => {
         </Link>
     );
 }
+
 export default Sidebar

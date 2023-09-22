@@ -4,13 +4,13 @@ import {
     HiOutlineDocumentText,
     HiOutlineAnnotation,
     HiOutlineCog,
+    HiOutlineCamera
 } from 'react-icons/hi';
 
 export interface SidebarLinkInterface {
     key: string;
     label: string;
     path: string;
-    // create warning
     icon: JSX.Element;
 }
 
@@ -39,6 +39,12 @@ export const DASHBOARD_SIDEBAR_LINKS: SidebarLinkInterface[] = [
         path: '/doctorportal',
         icon: <HiOutlineAnnotation />,
     },
+    {
+        key: 'Workout',
+        label: 'Workout',
+        path: '/workout',
+        icon: <HiOutlineCamera />,
+    }
 ];
 
 export const DASHBOARD_SIDEBAR_BOTTOM_LINKS: SidebarLinkInterface[] = [
