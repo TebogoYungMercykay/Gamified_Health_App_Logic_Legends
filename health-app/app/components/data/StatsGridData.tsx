@@ -1,6 +1,6 @@
 const statsData = [
     {
-        category: 'Weight',
+        category: 'Weight Status',
         target: 4.45,
         progress: 2.67
     },
