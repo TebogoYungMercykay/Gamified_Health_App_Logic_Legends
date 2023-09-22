@@ -47,7 +47,7 @@ const Events = () => {
                 const newMinutes = prevMinutes + 1;
                 if (newMinutes === 60) {
                 // If minutes reach 60, reset to 0 and increment hours
-                setHours((prevHours) => (prevHours + 1) % 24); // Handle rollover for hours (0-23)
+                setHours((prevHours) => (prevHours + 1) % 24);
                 }
                 return newMinutes;
             });
