@@ -9,18 +9,21 @@
 }
 
 .display-text {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     display: flex;
     color: rgb(224, 224, 224);
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 40%;
-    border: 3px solid #517473;
+    border: 3px solid #88a4a3;
     height: 30%;
     padding: 10px;
     border-radius: 10px;
     background-color: rgba(43, 43, 43, 0.845);
-    margin-bottom: 20%;
 }
 
 .display-text h1 {
