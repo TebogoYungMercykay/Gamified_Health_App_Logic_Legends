@@ -14,11 +14,11 @@ export const createUser = async (req, res) => {
         // Resolve the userService from the container
         const userService = req.container.resolve('userService');
         // Call the createUser function from the controller
-        const userId = await userService.createUser(name, email, password);
+        const _id = await userService.createUser(name, email, password);
 
         res.status(201).send({ // Created
             message: 'User created successfully',
-            data: { userId: userId }
+            data: { _id: _id }
         });
     } catch (error) {
         res.status(error.statusCode).send({ error: error.message });
@@ -38,11 +38,11 @@ export const loginUser = async (req, res) => {
         const { email, password } = req.body;
         // Resolve the userService from the container
         const userService = req.container.resolve('userService');
-        const userId = await userService.loginUser(email, password);
+        const _id = await userService.loginUser(email, password);
         
         res.status(200).send({ // OK
             message: "Authentication successful",
-            data: { userId: userId }
+            data: { _id: _id }
         });
     } catch (error) {
         res.status(error.statusCode).send({ error: error.message });

@@ -2,7 +2,7 @@ FROM alpine
 
 ENV NODE_ENV=production
 
-RUN apk update && apk upgrade && apk add nodejs npm
+RUN apk update && apk upgrade && apk add nodejs
 
 WORKDIR /app
 

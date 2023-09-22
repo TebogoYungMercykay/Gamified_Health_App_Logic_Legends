@@ -3,6 +3,8 @@
 import express from "express";
 // secure Express apps by setting various HTTP headers
 import helmet from "helmet"
+// Cross-Origin Resource Sharing
+import cors from 'cors'
 // used to secure sensitive data
 import dotenv from 'dotenv';
 // HTTP request logger 
@@ -37,12 +39,14 @@ const port = process.env.PORT || 3000;
 
 export const app = express();
 
+
 mongoose.connect(process.env.MONGO_URL, { useNewUrlParser: true, useUnifiedTopology: true });
 
 mongoose.connection.once('open', () => {
   console.log('Connected to database');
 });
-
+// Allow requests from any origin
+app.use(cors());
 // Middleware to handle errors
 app.use(errorHandler);
 // Middleware to preventing any dependency conflicts between requests
