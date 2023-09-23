@@ -51,11 +51,11 @@ const Tutorials = () => {
         {selectedTutorial && (
             <div className="p-0">
                 <h3 className="text-xl font-semibold text-gray-900 mb-5">
-                    {selectedTutorial.title}
+                    {selectedTutorial.Tutorial_name}
                 </h3>
                 <iframe
                     className="aspect-video w-full"
-                    src={selectedTutorial.src}
+                    src={selectedTutorial.video_src}
                     title="YouTube video player"
                     frameBorder={selectedTutorial.frameBorder}
                     allow={selectedTutorial.allow}
@@ -69,7 +69,7 @@ const Tutorials = () => {
         {selectedTutorial && (
           <div className="p-6">
             <h3 className="text-xl font-semibold text-gray-900 mb-5">
-              {selectedTutorial.title}
+              {selectedTutorial.Tutorial_name}
             </h3>
             <p className="mb-5 font-normal text-gray-500">
               {selectedTutorial.content}

@@ -1,0 +1,71 @@
+.not-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('./WorkOut.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.display-text {
+  display: flex;
+  color: rgb(224, 224, 224);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  border: 3px solid #88a4a3;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(43, 43, 43, 0.845);
+}
+
+.display-text h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.display-text p {
+  font-size: 20px;
+}
+
+.custom-select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.custom-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.custom-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: #ff0000;
+  font-size: 16px;
+  margin-top: 5px;
+}
