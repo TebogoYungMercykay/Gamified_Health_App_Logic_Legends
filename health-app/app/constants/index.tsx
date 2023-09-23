@@ -6,6 +6,7 @@ import {
     HiOutlineCog,
     HiOutlineCamera
 } from 'react-icons/hi';
+import {BsQrCodeScan} from "react-icons/bs";
 
 export interface SidebarLinkInterface {
     key: string;
@@ -44,6 +45,12 @@ export const DASHBOARD_SIDEBAR_LINKS: SidebarLinkInterface[] = [
         label: 'Workout',
         path: '/workout',
         icon: <HiOutlineCamera />,
+    },
+    {
+        key: 'QrCode',
+        label: 'QrCode',
+        path: '/qrcode',
+        icon: <BsQrCodeScan />,
     }
 ];
 
