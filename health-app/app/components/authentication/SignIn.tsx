@@ -59,7 +59,7 @@ const SignIn = ({isLogin}: props) => {
                     <FaLock className=' icon-style' />
                     <input type='password' name='password' placeholder='Password' className=' input-field' />
                 </div>
-                <button type="submit"  className=' btn' >login</button>
+                <button type="submit"  className=' btn text-white' >login</button>
             </form>
         </div>
     )

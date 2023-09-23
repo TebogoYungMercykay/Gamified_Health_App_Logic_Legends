@@ -1,6 +1,6 @@
 'use client'
 import React, {useState} from 'react'
-import { PNG } from 'pngjs/browser';
+import { PNG } from 'pngjs';
 import jsQR from "jsqr";
 
 interface QrCodeDecoderProp {
