@@ -1,5 +1,6 @@
 import React, {FormEvent} from 'react'
 import {MdEmail} from "react-icons/md";
+import { useRouter, usePathname, useSearchParams } from 'next/navigation'
 import {FaLock} from "react-icons/fa";
 import axios from "axios";
 
@@ -8,6 +9,11 @@ interface props {
 }
 
 const SignIn = ({isLogin}: props) => {
+
+    const router = useRouter()
+    const pathname = usePathname()
+    const searchParams = useSearchParams()
+
     const sign_in_form = (isLogin) ? 'col-span-1 col-end-2 row-span-1 row-end-2 z-[2] py-0 px-20' : 'col-span-1 col-end-2 row-span-1 row-end-2 z-[1] opacity-0 py-0 px-20'
     const handle_sign_in = async (event: FormEvent<HTMLFormElement>) => {
         event.preventDefault();
@@ -36,7 +42,7 @@ const SignIn = ({isLogin}: props) => {
 
             console.log(response.data);
             // Redirect to the dashboard after successful registration
-            // navigate("/dashboard");
+            router.push("/dashboard");
         } catch (error) {
             console.error(error);
         }
